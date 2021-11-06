@@ -1,3 +1,185 @@
+<<<<<<< HEAD
+Package: apt.cydiakk.camerashuttersounddisabler
+Section: 插件
+Installed-Size: 0
+Filename: debs/apt.cydiakk.camerashuttersounddisabler.deb
+Size: 760
+MD5sum: 4b38c110be4ebf0cb836ff40a949f027
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Architecture: iphoneos-arm
+Version: 0.1.0
+Depends: mobilesubstrate
+Description: 禁用拍照快门声音，截图声音。
+Name: 禁用快门声音
+Author: Hao Nguyen
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.colorbadges
+Section: 插件
+Installed-Size: 560
+Filename: debs/apt.cydiakk.colorbadges.deb
+Size: 84096
+MD5sum: 0c1b005705473442fd8d6f075ef80881
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Architecture: iphoneos-arm
+Version: 1.5.0
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: com.haoerloveyou.colorbadges
+Description: 角标颜色随App图标颜色自动改变
+Name: ColorBadges 彩色角标
+Author: David Goldman
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.cydown
+Section: 插件
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Filename: debs/apt.cydiakk.cydown.deb
+Size: 4365416
+MD5sum: 5b953d6ad32ba004984a7c0053162272
+Architecture: iphoneos-arm
+Version: 7.1.2
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Description: 破解Cydia收费插件，插件缓存必装神器
+Name: CyDown破解收费插件
+Author: julioverne <julioverne@me.com>
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.denyphotoalbums
+Priority: optional
+Section: 插件
+Filename: debs/apt.cydiakk.denyphotoalbums.deb
+Size: 124060
+MD5sum: e7f33b7bf6a9d05d19e3e562f8487445
+Installed-Size: 541
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Architecture: iphoneos-arm
+Version: 1.1.8
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Description: 相册增强，支持隐藏拍摄地址，人物，最近删除等等！
+Name: DenyPhotoAlbums 隐藏相册
+Author: CydiaGeek <lucaluca86@aol.com>
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.dlgmemorinjected
+Section: 插件
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Filename: debs/apt.cydiakk.dlgmemorinjected.deb
+Size: 535762
+MD5sum: 5b076071ec20a8bc316f3dd1d81c514b
+Architecture: iphoneos-arm
+Version: 1.0.1-1
+Depends: mobilesubstrate, preferenceloader, applist
+Description: DLGMemor内存修改器 多用于游戏修改
+Name: DLGMemor Injected 修改器
+Author: AnonymousXiOSdeV
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.flyjbx
+Section: 插件
+Installed-Size: 1580
+Filename: debs/apt.cydiakk.flyjbx.deb
+Size: 767942
+MD5sum: 621acaee90d2b73307319b8139a38735
+Maintainer: Nets
+Architecture: iphoneos-arm
+Version: 1.2.5
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb, kr.xsf1re.flyjbx, netskao.flyjb, apt.cydiakk.flyjb
+Description: 屏蔽越狱检测 激活指纹 面容支付
+Name: FlyJB X屏蔽越狱检测
+Author: XsF1re
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.hidejb
+Section: 插件
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Filename: debs/apt.cydiakk.hidejb.deb
+Size: 427106
+MD5sum: bafd9d84fabbdf2ccf23cda650e308de
+Architecture: iphoneos-arm
+Version: 2.1.1
+Depends: mobilesubstrate (>= 0.9.5015), firmware (>= 7.0), ws.hbang.common (>= 1.13.1), applist, preferenceloader
+Name: Hide JB 屏蔽越狱
+Author: TTJB Team
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+
+Package: apt.cydiakk.magsafe
+Section: 插件
+Maintainer: MTAC <mtac@mtac.app>
+Filename: debs/apt.cydiakk.magsafe.deb
+Size: 569310
+MD5sum: 70f5a73ec53b0c943d6872685b1c097e
+Architecture: iphoneos-arm
+Version: 1.0.9
+Depends: firmware (>= 12.0), firmware (>= 12.0)
+Description: MagSafe充电指示灯就像iOS14！
+Name: MagSafe炫酷充电
+Author: Ethan Whited & MTAC <mtac@mtac.app>
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.notchification
+Priority: optional
+Section: 破解
+Filename: debs/apt.cydiakk.notchification.deb
+Size: 1535932
+MD5sum: 49e3a1bb448096ae39f0a343c5507e02
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Architecture: iphoneos-arm
+Version: 2.2.1
+Depends: firmware (>= 5.0), mobilesubstrate, applist, preferenceloader, org.thebigboss.libcolorpicker | me.nepeta.libcolorpicker
+Description: 通过您的通知接收精美的动画！此版本为可破解版本，使用CrackTool 4破解即可
+Name: Notchification LED跑马灯
+Author: c1d3r <c1d3rdev@gmail.com>
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: apt.cydiakk.velvet
+Section: 插件
+Installed-Size: 764
+Filename: debs/apt.cydiakk.velvet.deb
+Size: 257500
+MD5sum: 0086d918ed027b578bdc6506c08f0148
+Maintainer: initWithFrame <initwithframe@protonmail.com>
+Architecture: iphoneos-arm
+Version: 1.5.1
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Description: 非常出色的自定义通知的新方法和风格！
+Name: Velvet多彩横幅
+Author: initWithFrame <initwithframe@protonmail.com>
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Tag: compatible_min::ios13.0
+
+Package: apt.cydiakk.youpip
+Section: 插件
+Installed-Size: 204
+Filename: debs/apt.cydiakk.youpip.deb
+Size: 30820
+MD5sum: ae4e735ba6f1ee7cf451780dc7f84c2f
+Maintainer: PoomSmart
+Architecture: iphoneos-arm
+Version: 1.5.14
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip, com.ps.youpip
+Description: 开启Youtube原生画中画
+Name: YouTubePIP(Youtube画中画)
+Author: PoomSmart
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+=======
+>>>>>>> 4894e879fbe13bcfa63fe43c5419540541a44ae0
 Package: com.25mao.miyou
 Priority: optional
 Section: 微信插件
