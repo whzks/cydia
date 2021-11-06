@@ -1,215 +1,3 @@
-
-Package: applist
-Section: System
-Installed-Size: 780
-Filename: debs/applist.deb
-Size: 186842
-MD5sum: 3c7d25720f06e5868e7783a29091a87c
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Architecture: iphoneos-arm
-Version: 1.5.16
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Description: Allow extensions to read the list of installed apps
-Name: AppList
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-dev: rpetrich
-
-Package: apt.cydiakk.adsspee
-Section: 插件
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Filename: debs/apt.cydiakk.adsspee.deb
-Size: 218108
-MD5sum: 4ad13b6d245be515e14f65cacf6348a0
-Architecture: iphoneos-arm
-Version: 1.0.4-1
-Depends: mobilesubstrate, applist
-Name: VideoAdsSpeed 快速跳过广告
-Author: lenglengyu
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.camerashuttersounddisabler
-Section: 插件
-Installed-Size: 0
-Filename: debs/apt.cydiakk.camerashuttersounddisabler.deb
-Size: 760
-MD5sum: 4b38c110be4ebf0cb836ff40a949f027
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Architecture: iphoneos-arm
-Version: 0.1.0
-Depends: mobilesubstrate
-Description: 禁用拍照快门声音，截图声音。
-Name: 禁用快门声音
-Author: Hao Nguyen
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.colorbadges
-Section: 插件
-Installed-Size: 560
-Filename: debs/apt.cydiakk.colorbadges.deb
-Size: 84096
-MD5sum: 0c1b005705473442fd8d6f075ef80881
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Architecture: iphoneos-arm
-Version: 1.5.0
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
-Conflicts: com.haoerloveyou.colorbadges
-Description: 角标颜色随App图标颜色自动改变
-Name: ColorBadges 彩色角标
-Author: David Goldman
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.cydown
-Section: 插件
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Filename: debs/apt.cydiakk.cydown.deb
-Size: 4365416
-MD5sum: 5b953d6ad32ba004984a7c0053162272
-Architecture: iphoneos-arm
-Version: 7.1.2
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Description: 破解Cydia收费插件，插件缓存必装神器
-Name: CyDown破解收费插件
-Author: julioverne <julioverne@me.com>
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.denyphotoalbums
-Priority: optional
-Section: 插件
-Filename: debs/apt.cydiakk.denyphotoalbums.deb
-Size: 124060
-MD5sum: e7f33b7bf6a9d05d19e3e562f8487445
-Installed-Size: 541
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Architecture: iphoneos-arm
-Version: 1.1.8
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Description: 相册增强，支持隐藏拍摄地址，人物，最近删除等等！
-Name: DenyPhotoAlbums 隐藏相册
-Author: CydiaGeek <lucaluca86@aol.com>
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.dlgmemorinjected
-Section: 插件
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Filename: debs/apt.cydiakk.dlgmemorinjected.deb
-Size: 535762
-MD5sum: 5b076071ec20a8bc316f3dd1d81c514b
-Architecture: iphoneos-arm
-Version: 1.0.1-1
-Depends: mobilesubstrate, preferenceloader, applist
-Description: DLGMemor内存修改器 多用于游戏修改
-Name: DLGMemor Injected 修改器
-Author: AnonymousXiOSdeV
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.flyjbx
-Section: 插件
-Installed-Size: 1580
-Filename: debs/apt.cydiakk.flyjbx.deb
-Size: 767942
-MD5sum: 621acaee90d2b73307319b8139a38735
-Maintainer: Nets
-Architecture: iphoneos-arm
-Version: 1.2.5
-Depends: mobilesubstrate
-Conflicts: kr.xsf1re.flyjb, kr.xsf1re.flyjbx, netskao.flyjb, apt.cydiakk.flyjb
-Description: 屏蔽越狱检测 激活指纹 面容支付
-Name: FlyJB X屏蔽越狱检测
-Author: XsF1re
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.hidejb
-Section: 插件
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Filename: debs/apt.cydiakk.hidejb.deb
-Size: 427106
-MD5sum: bafd9d84fabbdf2ccf23cda650e308de
-Architecture: iphoneos-arm
-Version: 2.1.1
-Depends: mobilesubstrate (>= 0.9.5015), firmware (>= 7.0), ws.hbang.common (>= 1.13.1), applist, preferenceloader
-Name: Hide JB 屏蔽越狱
-Author: TTJB Team
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Tag: purpose::extension, compatible::ios11, compatible::ios12
-
-Package: apt.cydiakk.magsafe
-Section: 插件
-Maintainer: MTAC <mtac@mtac.app>
-Filename: debs/apt.cydiakk.magsafe.deb
-Size: 569310
-MD5sum: 70f5a73ec53b0c943d6872685b1c097e
-Architecture: iphoneos-arm
-Version: 1.0.9
-Depends: firmware (>= 12.0), firmware (>= 12.0)
-Description: MagSafe充电指示灯就像iOS14！
-Name: MagSafe炫酷充电
-Author: Ethan Whited & MTAC <mtac@mtac.app>
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.notchification
-Priority: optional
-Section: 破解
-Filename: debs/apt.cydiakk.notchification.deb
-Size: 1535932
-MD5sum: 49e3a1bb448096ae39f0a343c5507e02
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Architecture: iphoneos-arm
-Version: 2.2.1
-Depends: firmware (>= 5.0), mobilesubstrate, applist, preferenceloader, org.thebigboss.libcolorpicker | me.nepeta.libcolorpicker
-Description: 通过您的通知接收精美的动画！此版本为可破解版本，使用CrackTool 4破解即可
-Name: Notchification LED跑马灯
-Author: c1d3r <c1d3rdev@gmail.com>
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
-Package: apt.cydiakk.velvet
-Section: 插件
-Installed-Size: 764
-Filename: debs/apt.cydiakk.velvet.deb
-Size: 257500
-MD5sum: 0086d918ed027b578bdc6506c08f0148
-Maintainer: initWithFrame <initwithframe@protonmail.com>
-Architecture: iphoneos-arm
-Version: 1.5.1
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
-Description: 非常出色的自定义通知的新方法和风格！
-Name: Velvet多彩横幅
-Author: initWithFrame <initwithframe@protonmail.com>
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Tag: compatible_min::ios13.0
-
-Package: apt.cydiakk.youpip
-Section: 插件
-Installed-Size: 204
-Filename: debs/apt.cydiakk.youpip.deb
-Size: 30820
-MD5sum: ae4e735ba6f1ee7cf451780dc7f84c2f
-Maintainer: PoomSmart
-Architecture: iphoneos-arm
-Version: 1.5.14
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
-Conflicts: com.spicat.youpip, com.ps.youpip
-Description: 开启Youtube原生画中画
-Name: YouTubePIP(Youtube画中画)
-Author: PoomSmart
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-
 Package: com.25mao.miyou
 Priority: optional
 Section: 微信插件
@@ -287,6 +75,9 @@ Tag: purpose::extension
 Package: com.abcydia.cr4shed
 Section: Utilities
 Installed-Size: 1528
+Filename: debs/applist.deb
+Size: 186842
+MD5sum: 3c7d25720f06e5868e7783a29091a87c
 Filename: debs/com.abcydia.cr4shed.deb
 Size: 340460
 MD5sum: 04cb484d9b9f7f42b3ec89a767204d7b
@@ -297,6 +88,23 @@ Depends: mobilesubstrate, com.muirey03.libmryipc, com.cokepokes.libnotifications
 Description: 程序崩溃日志查看器
 Name: Cr4shed 崩溃日志
 Author: Muirey03
+Sponsor: ABCydia <http://www.abcydia.com>
+Package: com.abcydia.mybloxx
+Section: Networking
+Installed-Size: 1644
+Filename: debs/com.abcydia.mybloxx.deb
+Size: 521430
+MD5sum: 6f05c186db6bdaa2dd9745bbc3542911
+Maintainer: WZteam <admin@abcydia.com>
+Architecture: iphoneos-arm
+Version: 2.040821-13
+Replaces: com.droomone.tabblocker, com.p2kdev.safariblocker, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx11, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
+Depends: com.opa334.ccsupport, com.opa334.libundirect, mobilesubstrate, preferenceloader, ws.hbang.common
+Pre-Depends: dpkg
+Conflicts: com.ceadd.blockyoux-procursus, com.ceadd.blockyoux, com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.droomone.tabblocker, com.git-anish.mdnsrestart, com.nathanaccidentally.mdnsflush, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.p2kdev.safariblocker, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.thireus.hostscleaner, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.t
+Description: 很好用的iOS广告屏蔽插件
+Name: MYbloXX13 广告屏蔽13
+Author: MYXXdev
 Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: com.abcydia.mybloxx
@@ -614,20 +422,24 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
 
-Package: applist
-Section: System
-Installed-Size: 780
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Package: com.cydiabc.exacttime
+Section: 系统
+Installed-Size: 420
+Filename: debs/com.cydiabc.exacttime.deb
+Size: 27168
+MD5sum: 25b094e7ea9e7d2346876d6e89cd26f1
+Maintainer: Ai-小苹果
 Architecture: iphoneos-arm
-Version: 1.5.16
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Description: Allow extensions to read the list of installed apps
-Name: AppList
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-dev: rpetrich
+Version: 1.8
+Depends: mobilesubstrate
+Description: 显示一个通知的具体时间
+A12: 1
+Name: ExactTime通知时间
+Author: gilshahar7
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+
 Package: com.cydiabc.exacttimephone
 Section: 系统
 Installed-Size: 152
@@ -982,23 +794,24 @@ Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, c
 SCS: 30
 PushStar: 0
 
-Package: applist
-Section: System
-Installed-Size: 780
-Filename: debs/applist.deb
-Size: 186842
-MD5sum: 3c7d25720f06e5868e7783a29091a87c
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Package: com.cydiami.sudial
+Priority: optional
+Section: 插件
+Filename: debs/com.cydiami.sudial.deb
+Size: 505176
+MD5sum: 05981a82f9eb9dd8f9f78e4d09faf1a5
+Maintainer: A Sileo蜜蜂源™ <admin@cydiami.com>
 Architecture: iphoneos-arm
-Version: 1.5.16
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Description: Allow extensions to read the list of installed apps
-Name: AppList
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-dev: rpetrich
+Version: 0.1-5
+Depends: firmware (>= 8.0), mobilesubstrate
+Description: 支持T9拨号兼容X以及以上设备
+Name: SuDial T9拨号助手
+Author: Mao
+Sponsor: A Sileo蜜蜂源™ <https://apt.cydiami.com/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+SCS: 36
+PushStar: 0
+
 Package: com.cydiami.uyou
 Section: 插件
 Maintainer: A Sileo蜜蜂源™ <admin@cydiami.com>
@@ -1195,4 +1008,615 @@ Name: 屏蔽广告
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/killads.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/killadssileo
+
+Package: com.linusyang.localeutf8
+Section: System
+Installed-Size: 186
+Filename: debs/com.linusyang.localeutf8.deb
+Size: 17484
+MD5sum: 86f28c940e18fc981cf1ae468b4ece46
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0-1
+Depends: profile.d
+Description: UTF-8 locale files for en_US and zh_CN
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Author: Linus Yang <laokongzi@gmail.com>
+Name: Locale Profiles in UTF-8
+dev: laokongzi
+Tag: purpose::console, role::hacker
+
+Package: com.mtac.icarus
+Section: Tweaks
+Maintainer: MTAC <mtac@mtac.app>
+Filename: debs/com.mtac.icarus.deb
+Size: 2358198
+MD5sum: d2eccf9100ef75a64bfa1edfde2334ca
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), ws.hbang.common
+Description: An incredible new way to switch apps
+Name: Icarus
+Depiction: https://mtac.app/repo/depiction/web/com.mtac.icarus.html
+SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.icarus.json
+ModernDepiction: https://mtac.app/repo/depiction/native/com.mtac.icarus.json
+Icon: https://mtac.app/repo/assets/com.mtac.icarus/icon.png
+Homepage: https://mtac.app/repo
+Tags: compatible_min::ios14.0, compatible_max::ios14.8
+Author: MTAC <mtac@mtac.app>
+Tag: role::enduser
+SomeOtherEntryToControl: True
+
+Package: com.muirey03.libmryipc
+Section: Development
+Installed-Size: 464
+Filename: debs/com.muirey03.libmryipc.deb
+Size: 47248
+MD5sum: a60dfe0a2b276e1d2aa2660528021118
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 2.0.1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (= 1.0)
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Name: libMRYIPC
+Author: Muirey03 <tommy.muir@btinternet.com>
+dev: muirey03
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Tag: role::developer, purpose::library, cydia::obsolete
+
+Package: com.niceios.nicebarx14
+Section: Tweaks
+Installed-Size: 15880
+Filename: debs/com.niceios.nicebarx14.deb
+Size: 4689584
+MD5sum: 8a7ce5657f04da7549c5da871f95411a
+Maintainer: niceios
+Architecture: iphoneos-arm
+Version: 1.0.1.3-16
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.10~beta1), mobilesubstrate, com.niceios.nicehelper (>= 3.8), preferenceloader
+Description: 状态栏插件.
+Name: NiceBarX(iOS14)
+Author: niceios
+Sponsor: niceios
+
+Package: com.niceios.nicehelper
+Section: Addons
+Installed-Size: 2044
+Filename: debs/com.niceios.nicehelper.deb
+Size: 958888
+MD5sum: 30a5c24e72036020a0d9697d194ece5b
+Maintainer: niceios
+Architecture: iphoneos-arm
+Version: 4.0-1
+Depends: com.rpetrich.rocketbootstrap
+Description: nice插件依赖组件.
+Name: NiceHelper
+Author: niceios
+Sponsor: niceios
+
+Package: com.opa334.altlist
+Section: Development
+Installed-Size: 305
+Filename: debs/com.opa334.altlist.deb
+Size: 73032
+MD5sum: 0a422d3d1ef8b97d53905aefaa788529
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0.7
+Depends: firmware (>= 7.0)
+Description: A modern AppList alternative
+Author: opa334 <opa334@protonmail.com>
+Name: AltList
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::library
+
+Package: com.opa334.ccsupport
+Section: Tweaks
+Installed-Size: 386
+Filename: debs/com.opa334.ccsupport.deb
+Size: 88574
+MD5sum: 01dbc9f5c5004e6ad6ee4769859a48f5
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.3.5
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Description: Support tweak for CC modules!
+Author: opa334 <opa334@protonmail.com>
+Name: CCSupport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::extension
+
+Package: com.opa334.choicy
+Section: Tweaks
+Installed-Size: 996
+Filename: debs/com.opa334.choicy.deb
+Size: 248542
+MD5sum: f32a480dcac558613519f437e315a766
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.4
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::extension
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+
+Package: com.opa334.libundirect
+Section: Development
+Installed-Size: 307
+Filename: debs/com.opa334.libundirect.deb
+Size: 16122
+MD5sum: 002267d5d7076704ab3e5abede05350d
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.1.3
+Description: Patchfinder and rebinder for objc_direct methods
+Author: opa334 <opa334@protonmail.com>
+Name: libundirect
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::library
+
+Package: com.p2kdev.deleteforeverxs
+Section: Tweaks
+Installed-Size: 172
+Filename: debs/com.p2kdev.deleteforeverxs.deb
+Size: 9384
+MD5sum: 4bef0423f94e3fae81ca1f6a4ffec31b
+Maintainer: P2KDev <p2kdev@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: mobilesubstrate
+Description: Delete Media with moving to Recently Deleted!
+Name: DeleteForeverXS
+Author: P2KDev <p2kdev@gmail.com>
+
+Package: com.paigu.wechatjbdbypass
+Section: Tweaks
+Installed-Size: 104
+Filename: debs/com.paigu.wechatjbdbypass.deb
+Size: 18036
+MD5sum: 88412d22e989483ad0b5a3b7d0eef7bc
+Maintainer: 糖醋丶炒排骨
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate
+Description: 适配App Store商店7.0.20版微信，已用小号测试7天。加强反越狱检测、小号防封。防封只针对小号越狱环境，对红包功能被禁用没有效果；大号安装则正常使用面容指纹支付功能。
+Name: 微信JBDBypass
+Author: 糖醋丶炒排骨
+
+Package: com.rowandesign.morandi
+Section: Themes
+Maintainer: Rowandesign
+Filename: debs/com.rowandesign.morandi.deb
+Size: 6745522
+MD5sum: 4e2fd618e6daddc1fb7ee731d0fcdd3a
+Architecture: iphoneos-arm
+Version: 0.3.0
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Description: Morandi - Pay tribute to my favorite painter
+Name: Morandi
+Author: Rowandesign
+
+Package: com.rpetrich.rocketbootstrap
+Section: Tweaks
+Installed-Size: 596
+Filename: debs/com.rpetrich.rocketbootstrap.deb
+Size: 68518
+MD5sum: 426dc40c8f8c8e8f6714066562792ece
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0.10~beta1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Tag: purpose::extension, role::developer
+
+Package: com.rpgfarm.a-bypass
+Section: Tweaks
+Installed-Size: 848
+Filename: debs/com.rpgfarm.a-bypass.deb
+Size: 165150
+MD5sum: 3a27237ef30d27ca3e1828905ecd6f8f
+Maintainer: Baw Appie <pp121324@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.5.4
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Description: Super Jailbreak detection bypass!
+Name: A-Bypass
+Author: Baw Appie <pp121324@gmail.com>
+
+Package: com.rpgfarm.libaptoast
+Section: System
+Installed-Size: 132
+Filename: debs/com.rpgfarm.libaptoast.deb
+Size: 11626
+MD5sum: 2df5573f1adaa6db8c2ff980c4642f38
+Maintainer: Baw Appie <pp121324@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Description: Baw Appie's Toast Library
+Name: libAPToast
+Author: Baw Appie <pp121324@gmail.com>
+Tag: role::developer
+
+Package: com.spark.libsparkapplist
+Section: System
+Installed-Size: 404
+Filename: debs/com.spark.libsparkapplist.deb
+Size: 55054
+MD5sum: f3cad106be41279c7cd3aa90cca66e19
+Maintainer: Spark
+Architecture: iphoneos-arm
+Version: 1.0.10
+Description: AppList alternative
+Name: libSparkAppList
+Author: Spark
+Tag: role::developer
+
+Package: com.spark.libsparkcolourpicker
+Section: 依赖
+Installed-Size: 424
+Filename: debs/com.spark.libsparkcolourpicker.deb
+Size: 125190
+MD5sum: e366726ab87400e6a53f2e18200f0471
+Maintainer: A Sileo蜜蜂源™ <admin@cydiami.com>
+Architecture: iphoneos-arm
+Version: 1.0.2
+Description: Yet another colour picker... But this ones mine!
+ID: 133
+Name: libsparkcolourpicker
+Author: Spark
+Sponsor: A Sileo蜜蜂源™ <https://apt.cydiami.com/>
+Depiction: https://yilai.cydiami.com/index.php?pid=133
+Icon: file:///Applications/Cydia.app/Sections/Development.png
+Stat: 2
+Tag: role::developer
+UUID: nDumP3F1A4uPv6glBwGDlBi1k7QxYLMc9vi4laQ2
+Purchase_Link_Stat: 0
+Changelog_Older_Shows: 0
+TimeStamp: 2021-04-21 01:11:54
+DownloadTimes: 0
+LSDownloadTimes: 0
+CreateStamp: 2021-04-21 01:11:54
+
+Package: com.sutuplus.cocoatop64
+Section: 软件增强
+Installed-Size: 232
+Filename: debs/com.sutuplus.cocoatop64.deb
+Size: 306848
+MD5sum: 23cd2524c46bbc9762374fc522946249
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.2.3
+Depends: firmware (>= 10.0)
+Conflicts: ru.domo.cocoatop
+Description: 本插件安装包来自苏兔源
+Name: CocoaTop - 进程排查神器
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.cocoatop64
+Homepage: http://apt.sutuplus.com/pkg/com.sutuplus.cocoatop64
+Tag: purpose::uikit
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.sutuplus.filza
+Section: 软件增强
+Installed-Size: 12948
+Filename: debs/com.sutuplus.filza.deb
+Size: 21759368
+MD5sum: 6257735384d50d6ba60f1f6ced6d4cec
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.8.2-4
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Description: 本插件安装包来自苏兔源
+Name: Filza File Manager - 功能强大的文件管理器
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.filza
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+
+Package: com.sutuplus.inapp
+Section: 软件增强
+Installed-Size: 2
+Filename: debs/com.sutuplus.inapp.deb
+Size: 4120
+MD5sum: 6149ae760ea0a672c328451e6a3d53b8
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0~beta1
+Depends: mobilesubstrate
+Description: 本插件安装包来自苏兔源
+Name: InApp Purchases - 内购插件
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.inapp
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+
+Package: com.sutuplus.release
+Section: 软件增强
+Installed-Size: 567
+Filename: debs/com.sutuplus.release.deb
+Size: 714530
+MD5sum: f8be0c749532886befd56252514e9daf
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.1.5-1
+Depends: mobilesubstrate
+Description: 本插件安装包来自苏兔源
+Name: SutuPLUS-苏兔PLUS WX美化增强工具
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+
+Package: com.sutuplus.tiltvx67edit
+Section: 微信美化
+Installed-Size: 3481
+Filename: debs/com.sutuplus.tiltvx67edit.deb
+Size: 882
+MD5sum: 4e35bd6358e149fab89401fad784e816
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0
+Depends: mobilesubstrate
+Description: SUTUPLUS主题直装包
+Name: Tilt - SutuPLUS简约风主题
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.TiltVx67Edit
+Icon: http://sutuplus.github.io/repo/new/icon/wechatthemeicon.png
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+
+Package: com.sutuplus.vinyledit
+Section: 微信美化
+Installed-Size: 884
+Filename: debs/com.sutuplus.vinyledit.deb
+Size: 878
+MD5sum: 2fae0b3d536e40f2f3c685989fe09811
+Maintainer: Carby <super.cat.rabbit@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: mobilesubstrate
+Description: SUTUPLUS主题直装包
+Name: Vinyl - SutuPLUS简约风主题
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.vinylEdit
+Icon: http://sutuplus.github.io/repo/new/icon/wechatthemeicon.png
+Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
+
+Package: com.udevs.bakgrunnur
+Section: Tweaks
+Installed-Size: 1368
+Filename: debs/com.udevs.bakgrunnur.deb
+Size: 394658
+MD5sum: 40e3e2f137d32b1b002e41dbd26cc998
+Maintainer: udevs
+Architecture: iphoneos-arm
+Version: 1.7.7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), com.opa334.ccsupport, com.opa334.altlist, com.udevs.vexillarius
+Description: Truly backgrounding your apps
+Name: Bakgrunnur
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.bakgrunnur/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.bakgrunnur
+
+Package: com.udevs.vexillarius
+Section: System
+Installed-Size: 136
+Filename: debs/com.udevs.vexillarius.deb
+Size: 8428
+MD5sum: 65220a221de515699e93d46b61ac8561
+Maintainer: udevs
+Architecture: iphoneos-arm
+Version: 0.0.3
+Description: Standard Bearer
+Name: vexillarius
+Author: udevs
+Tag: role::hacker
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius
+
+Package: com.yourepo.lly.prozs
+Section: Tweaks
+Installed-Size: 3088
+Filename: debs/com.yourepo.lly.prozs.deb
+Size: 1186260
+MD5sum: d0d79bb12fd270993b1eec916219b641
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm
+Version: 3.5.7
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
+Name: Pro助手
+Author: lenglengyu
+Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
+Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
+
+Package: idv.aqua.imem
+Priority: optional
+Section: Utilities
+Filename: debs/idv.aqua.imem.deb
+Size: 537840
+MD5sum: 6be448eeba34da2a8f06c9a0c2b94a78
+Installed-Size: 1372
+Maintainer: Aqua Wu <igameguardian@gmail.com>
+Architecture: iphoneos-arm
+Version: 12.1
+Depends: firmware (>= 11.0)
+Description: iMemEditor is a memory editor for iOS 11 to 13.
+Name: iMemEditor
+Homepage: https://igg-server.herokuapp.com/
+Depiction: https://igg-server.herokuapp.com/
+Sponsor: Aqua Wu <igameguardian@gmail.com>
+Author: Aqua Wu <igameguardian@gmail.com>
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11 compatible::ios12
+dev: aqua
+
+Package: libactivator
+Priority: optional
+Section: System
+Filename: debs/libactivator.deb
+Size: 1512738
+MD5sum: 491fc793c12ffadec6f91060d3bd81aa
+Installed-Size: 5060
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.9.13
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Description: Centralized gestures, button and shortcut management for iOS
+Name: Activator
+Homepage: https://rpetrich.com/cydia/activator/
+Depiction: https://rpetrich.com/cydia/activator/
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+
+Package: net.angelxwind.karenlocalizer
+Section: Development
+Installed-Size: 231
+Filename: debs/net.angelxwind.karenlocalizer.deb
+Size: 8786
+MD5sum: ed7b13847bb27e2a3b2f850f8b73018f
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0.5
+Depends: firmware (>= 5.0)
+Description: library for developer localization
+ModernDepiction: 
+Name: KarenLocalizer
+Author: Karen/Akemi (angelXwind) <karen@akemi.ai>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::library, cydia::obsolete, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+
+Package: net.angelxwind.karenprefs
+Section: Development
+Installed-Size: 356
+Filename: debs/net.angelxwind.karenprefs.deb
+Size: 38078
+MD5sum: b7274da8ea3dec55d9c9900e1001efd2
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.5
+Depends: preferenceloader
+Description: library for developer preference bundles
+Author: Karen/Akemi <angelXwind@angelxwind.net>
+Name: KarenPrefs
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: angelxwind
+Tag: purpose::library, cydia::obsolete, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+
+Package: net.limneos.libbulletin
+Section: Development
+Installed-Size: 339
+Filename: debs/net.limneos.libbulletin.deb
+Size: 58628
+MD5sum: 2d5809229deecd44be20d4ab3ca09d47
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 0.1-158
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: Simple library that displays bulletins
+Name: libbulletin
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libbulletinDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libbulletinDp
+Author: Elias Limneos <limneoselias@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: limneos
+Tag: cydia::obsolete, purpose::extension
+
+Package: org.thebigboss.repo.icons
+Priority: optional
+Section: Repositories
+Filename: debs/org.thebigboss.repo.icons.deb
+Size: 11534
+MD5sum: 1663bc926c604178d340597679858193
+Installed-Size: 48
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.0
+Replaces: cydia, bigboss
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+
+Package: preferenceloader
+Section: System
+Installed-Size: 526
+Filename: debs/preferenceloader.deb
+Size: 67670
+MD5sum: 72893b3e8f8388e5fe676f502df245b5
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 2.2.6
+Depends: mobilesubstrate
+Description: load preferences in style
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Tag: role::hacker, purpose::library
+
+Package: ws.hbang.alderis
+Section: Development
+Installed-Size: 6468
+Filename: debs/ws.hbang.alderis.deb
+Size: 2850282
+MD5sum: 5d0800a04a0c52064bbc29adb748e150
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm
+Version: 1.1.2
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Description: Color picker support library for tweaks
+Name: Alderis Color Picker
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+
+Package: ws.hbang.common
+Section: Development
+Installed-Size: 1852
+Filename: debs/ws.hbang.common.deb
+Size: 337328
+MD5sum: 950a9cb6cc1993179095869f7fc3fb45
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm
+Version: 1.17
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Description: Support library for tweaks
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios5.0
+dev: hbang
 
